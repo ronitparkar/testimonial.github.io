@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ITC Officina Sans Std Book";
+}
+body {
+  background: #f1f3f6; 
+}
+html{
+	scroll-behavior: smooth;
+}
+/*--------------------------navbar------------------------------------------*/
+.navbar-brand{
+	font-size: 20px;
+	margin-top: 5px!important;
+	margin-bottom: -10px!important
+}
+.navbar-brand p{
+	font-size: 14px;
+	margin-top: -10px;
+}
+.nav-item a,.navbar-brand{
+	color: #2ECAB6!important;
+}
+ .nav-link{
+  font-weight: bold!important
+}
+.blink{
+	width:50px;
+	height: 20px;
+	background: red;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	margin-top: -12px!important;
+	margin-left:50px;
+}
+.bl{
+	margin-left:80px;
+}
+@media (max-width: 992px) {
+  .blink{
+  	margin-top: 15px!important;
+  }
+}
+/*-----------------------navbar end------------------------------------------->*/
+/*-----------------------1st part start------------------------------------------->*/
+.a1{
+	background: #2ECAB6;
+	height: 260px;
+	background-size: 100% 100%;
+	padding-top: 60px;
+	width:100%;
+}
+.container1{
+	margin: 0 auto;
+    width: 94%;
+    max-width: 1600px;
+    margin-top: -117px;
+    background: white;
+    /*overflow: visible;*/
+}
+.fa-check{
+	color: #2ECAB6;
+	margin-right: 10px;
+}
+.fa-map-marker-alt{
+	color: #2ECAB6;
+	margin-right: 5px;
+}
+.tick p{
+	margin-bottom: 5px;
+}
+.cards img{
+	height: 200px;
+}
+.btn.btn-search{
+  background:#2ECAB6!important; 
+  border-radius: 0;
+  color: white;
+}
+.a2 a:hover{
+	color:green!important;
+}
+input[type="search"]{	
+		padding-top: 25px!important;
+		padding-bottom: 25px!important;	
+	}
+	.btn.btn-search{
+      padding-top: 13px!important;
+	 padding-bottom: 13px!important;
+	}
+
+
+
+	
+/*---------------------------1st part end---------------------------------------------*/
+
+/*------------------------all media queries-----------------------------*/
+
+@media (max-width: 741px) and (min-width: 576px) {
+  
+	.a1{
+		height: 280px;	
+	}
+}
+@media (max-width: 576px){
+	.a1{
+		height: 300px;
+		padding-top: 50px;
+	}
+	.a1 span{
+		display:block;
+	}
+	.navbar-brand{
+		padding-left: 0!important;
+	}
+	.dropdown{
+		margin-left: -20px!important
+	}
+	.navbar-brand{
+	font-size: 18px;
+      }
+   .navbar-brand p{
+	font-size: 12px;	
+}
+.tick p,.a2 p,.last p{	
+		font-size: 14px;
+	}
+	.premium{
+		text-align: left!important;
+	}
+	.a2{
+		padding-top: 10px!important;
+	}
+	input[type="search"]{
+		font-size: 10px;
+	}
+	.btn.btn-search{
+      font-size: 10px;
+      padding-top: 17px!important;
+	 padding-bottom: 18px!important;
+	}
+	.faimage img{
+	height: 200px!important;
+}	
+	
+}
+@media (max-width: 386px)and (min-width: 381px)  {
+	.img1 {
+       width: auto;
+       height: 3vh;
+    }
+   .dropdown{
+		margin-left: -25px!important
+	}
+}
+@media (max-width: 381px){
+	.dropdown{
+		margin-left: -35px!important
+	}
+}
+/*-----------------------1st part end------------------------------------------->*/
+/*--------------------.100% safety &why sheltown part start-------------------------*/
+
+.icon-content,.card-title{
+	font-size: 18px;
+}
+.img1 {  
+  width:25%;
+  height: auto; 
+}
+
+.scrolling-wrapper {
+  white-space: nowrap;
+  overflow: auto;
+  overflow-y: hidden;
+  width: 1000px;
+  height: 190px;
+}
+.cf.card{
+  width: 100%;
+}
+@media (min-width: 580px){
+.h{
+	display: none;
+}
+}
+@media (max-width: 580px) {
+  .mob1 {
+    display: none;
+  }
+  .g {
+    display: none;
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  .img1,.center {
+  width: auto!important;
+  height:5vh!important;
+}
+.cardss p,.safety p{
+	font-size: 12px!important;
+}
+
+}
+
+/*---------------------------------------why sheltown part end---------------------------------------*/
+
+ /*-------------------------hear from customer-------------------------------------*/
+    .item .card{
+    	border-radius: 100px 0px 100px 0px;
+    	padding: 10%;
+    	height: 400px;
+    }
+    .imgarea{
+    	width: 100px;
+    	height: 100px;
+    	border-radius: 50%;
+    	overflow: hidden;
+    	margin: 0 auto;
+    }
+    .text i{
+    	color: limegreen;
+    }
+   .text hr{
+   	background-color: #ff5257;
+   }  
+   .owl-dot.active span{
+   	background: #ff5257!important;	
+   }
+   .owl-nav span{
+   	display: none;
+   }
+   .morecontent span {
+	display: none;
+}
+    
+/*--------------------------------------table part start--------------------------------------------*/
+.fa-info-circle{
+	color: #23b6ae;
+	font-size: 16px;
+	margin-left: 5px;
+}
+.mydatatable th{
+  text-align: center;
+}
+@media only screen and (max-width: 475px){
+  .mydatatable{
+    font-size: smaller;
+  }
+}
+/*---------------------------last part start---------------------------------------------*/
+.fa-handshake,.fa-user-shield,.fa-hand-holding-heart{
+	color: #2ecab6;
+	font-size: 20px;
+}
+
+footer {
+  color: #fff;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+.teal.accent-3 {
+    background-color: #1de9b6 !important;
+}
+.footer-links a:hover {
+    font-weight: bold!important;
+    text-decoration: underline;
+    color: white;
+}
+.to-top i{
+	position: fixed;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	right: 10px;
+	bottom: 25px;
+	color:#fff;
+	font-size: 25px; 
+	opacity: 0;
+	pointer-events: none;
+	transition: all .4s;
+}
+.to-top i.active{
+	bottom: 25px;
+	pointer-events: auto;
+	opacity: 1;
+}
+/*---------------------------last part end---------------------------------------------*/
+
+/****************************Signupp  modal **************************/
+#myform label,#myform p{
+	font-size: 18px;
+	}
+#myform input[type=text],#myform input[type=password],input[type=email],#myform1 input[type=text]
+ {
+   padding: 8px 15px 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    margin-top: 2px;
+    width: 100%;
+    color: #2C3E50;
+    background-color: #ECEFF1;
+    font-size: 16px;
+    letter-spacing: 1px
+}
+
+.submit-btn{
+    float: right;
+}
+
+.help-block{
+  color:red;
+}
+/*img{
+  max-width: 180px;
+}*/
+input[type=file]{
+  padding: 10px;
+}
+/****************************signup modal end**************************/
+
+.border{
+    width: 160px;
+    height: 5px;
+    background: #2ecab6;
+    margin: 10px auto;
+}
+
+
+@media only screen and (max-width:500px){
+	.item1 b{
+		font-size: 1rem;
+		margin-left: -10%;
+		margin-right: 6%;
+	}
+
+	.item2{
+		margin-left: -10%;
+	}
+
+	.star-rating{
+		margin-left:-58%;
+	}
+
+	.carousel .testimonial p{
+		font-size: 13px;
+	}
+
+	.border{
+		margin: 0 auto;
+		width: 107px;
+	}
+}

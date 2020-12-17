@@ -1,0 +1,737 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <title> Home Page </title>
+
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link href="fontawesome-free-5.13.0-web/fontawesome/css/all.css" rel="stylesheet">
+    <link href="fontawesome-free-5.13.0-web/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+    <link href="sheltownhomepage.css" rel="stylesheet">
+    <!-- <link href="css/owl.carousel.css" rel="stylesheet">
+     <link href="css/owl.theme.green.css" rel="stylesheet">-->
+    <script src="js/jquery.min.js"></script>
+    <script defer src="js/owl.carousel.min.js"></script>
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script src="https://use.fontawesome.com/d2dd69e8cc.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="css/StarSheet.css" rel="stylesheet">
+    <link href="css/.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+    <script src="js/homepage.js"></script>
+    <script src="js/StarSheet.js"></script>
+    <script src="js/StyleJavascript.js"></script>
+    <link href="css/testimonial.css" rel="stylesheet">
+
+    <!--rating -->
+    <link href="css/rating1.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/ratings.js"></script>
+
+</head>
+<body style="margin-top:5rem;">
+
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top " style="background-color: #fff;">
+       <a class="navbar-brand pl-4 py-0 " href="#"><b>SHELTOWN.in</b><p>Live Like You Own It</p></a>
+       <div class="navbar-brand  py-0" style="font-size: 16px;">
+       
+          </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item mr-4">
+              <div class="blink " id="blink" style="visibility: visible;">Hurry</div>
+              <a class="nav-link " href="#" style="padding-top: 0px;">Refer &amp; Earn </a>
+            </li>
+            <li class="nav-item mr-4">
+              <div class="blink bl" id="blinks" style="visibility: visible;">Free</div>
+              <a class="nav-link " href="#" style="padding-top: 0px;">List Your Property</a>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="#SignupModal" data-toggle="modal">Sign up </a>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="#LoginModal" data-toggle="modal">Sign in </a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+      </div>
+  
+  <hr  style="border: none; border-bottom: 1px solid  #ccc;">
+  
+  
+  <!-- .......................................header end------------------------------------------------- -->
+
+
+    <!-------------------------------- testimonials section ------------------------------------>
+  <div class="container">
+
+
+      <div class="container">
+          <div class="item1" style="text-align:center; font-size:3rem;">
+              <b>Reviews</b>
+              <div class="border"></div>
+          </div>
+      </div>
+
+      <div class="container-fluid">
+              <button type="button" class="btn" data-toggle="modal" style="background-color:#2ecab6; height:2rem; width:200px; font-size:1rem; float:right; line-height:1rem;" data-target="#exampleModal" data-whatever="@mdo">Submit Testimonial</button>
+      </div>
+      
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+          <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h4 class="modal-title" style="color:  #2ecab6;" id="exampleModalLabel"><b>Feedback </b></h4>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+                  </div>
+                  <div class="modal-body">
+                      <form>
+                          <div class="form-group">
+                              <input type="text" class="form-control" id="recipient-name" placeholder="Name">
+                          </div>
+                          <div class="form-group">
+                              <input type="text" class="form-control" id="recipient-name" placeholder="Contact">
+                          </div>
+                          <div class="form-group">
+                              <input type="text" class="form-control" id="recipient-name" placeholder="Email">
+                          </div>
+                          <div class="form-group">
+                              <input type="text" class="form-control" id="recipient-name" placeholder="City">
+                          </div>
+                          <div class="form-group">
+                              <textarea class="form-control" id="message-text" placeholder="Write your Feedback" rows="5"></textarea>
+                          </div>
+                          <!-- Rating Stars Box -->
+                          <div class='rating-stars'>
+                              <ul id='stars' style="list-style:none;">
+                                  <li class='star' title='Poor' data-value='1'>
+                                      <i class='fa fa-star fa-fw'></i>
+                                  </li>
+                                  <li class='star' title='Fair' data-value='2'>
+                                      <i class='fa fa-star fa-fw'></i>
+                                  </li>
+                                  <li class='star' title='Good' data-value='3'>
+                                      <i class='fa fa-star fa-fw'></i>
+                                  </li>
+                                  <li class='star' title='Excellent' data-value='4'>
+                                      <i class='fa fa-star fa-fw'></i>
+                                  </li>
+                                  <li class='star' title='WOW!!!' data-value='5'>
+                                      <i class='fa fa-star fa-fw'></i>
+                                  </li>
+                              </ul>
+                          </div>
+                          <input type="file" id="myFile" name="filename">
+                      </form>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn" style="background-color:#2ecab6">Submit</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+
+
+      <!--optional-->
+      <div class="col-sm-12">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Wrapper for carousel items -->
+              <div class="carousel-inner">
+                  <div class="item carousel-item active">
+                      <div class="row">
+
+                          <div class="col-sm-6">
+                              <div class="testimonial" style="margin-right: 0; margin-left: 0;">
+                                  <p style="font-family: 'ITC Officina Sans Std', sans-serif; ">
+                                      The service
+                                      here is just fantastic. Whatever i need is just brought to me right
+                                      away, i am impressed with the services and facilities at SheltOwn
+                                      Properties.
+                                  </p>
+                              </div>
+                              <div class="media">
+                                  <div class="media-left d-flex mr-3">
+                                      <img src=images/customer2.jpg alt="">
+                                  </div>
+                                  <div class="media-body">
+                                      <div class="overview">
+                                          <div class="name"><b>Abhishek</b></div>
+                                          <div class="details">Mumbai</div>
+                                          <div class="star-rating">
+                                              <!-- <ul class="starability-result mx-auto" data-rating="5">5</ul> -->
+                                              <ul class="list-inline">
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="col-sm-6">
+                              <div class="testimonial" style="margin-right: 0; margin-left: 0;">
+                                  <p style="font-family: 'ITC Officina Sans Std', sans-serif; ">
+                                      Its been some
+                                      time staying here and no issues at all. Everything is just fine and
+                                      experience is no less then a my own Home. Thanks SheltOwn.
+                                  </p>
+                              </div>
+                              <div class="media">
+                                  <div class="media-left d-flex mr-3">
+                                      <img src=images/rishab.jpg alt="">
+                                  </div>
+                                  <div class="media-body">
+                                      <div class="overview">
+                                          <div class="name"><b>Rishabh</b></div>
+                                          <div class="details">Mumbai</div>
+                                          <div class="star-rating">
+                                              <!-- <ul class="starability-result mx-auto" data-rating="5">
+                                               5
+                                            </ul> -->
+                                              <ul class="list-inline">
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="col-sm-6">
+                              <div class="testimonial" style="margin-right: 0; margin-left: 0;">
+                                  <p style="font-family: 'ITC Officina Sans Std', sans-serif; ">
+                                      I would like
+                                      to express my gratitude to the SheltOwn Team. It was very difficult for
+                                      us to find this good place for my family. Great Service!
+                                  </p>
+                              </div>
+                              <div class="media">
+                                  <div class="media-left d-flex mr-3">
+                                      <img src=images/sudhir.jpg alt="">
+                                  </div>
+                                  <div class="media-body">
+                                      <div class="overview">
+                                          <div class="name"><b>Sudhir Singh</b></div>
+                                          <div class="details">Mumbai</div>
+                                          <div class="star-rating">
+                                              <!-- <ul class="starability-result mx-auto" data-rating="5">
+                                               5
+                                            </ul> -->
+                                              <ul class="list-inline">
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="col-sm-6">
+                              <div class="testimonial" style="margin-right: 0; margin-left: 0;">
+                                  <p style="font-family: 'ITC Officina Sans Std', sans-serif; ">
+                                      A platform for
+                                      small to big pockets. Immensely happy for the deal with sheltown without
+                                      brokerage. The way they are doing is beyond my expectations.
+                                  </p>
+                              </div>
+                              <div class="media">
+                                  <div class="media-left d-flex mr-3">
+                                      <img src=images/customer1.jpg alt="">
+                                  </div>
+                                  <div class="media-body">
+                                      <div class="overview">
+                                          <div class="name"><b>Chaitanya</b></div>
+                                          <div class="details">Mumbai</div>
+                                          <div class="star-rating">
+                                              <!-- <ul class="starability-result mx-auto" data-rating="5">
+                                               5
+                                            </ul> -->
+                                              <ul class="list-inline">
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="item carousel-item">
+                      <div class="row">
+                          <div class="col-sm-6">
+                              <div class="testimonial" style="margin-right: 0; margin-left: 0;">
+                                  <p>
+                                      Brokers become inevitable and unfortunately, unprofessional because of no direct
+                                      communication. Renting a property was very frustrating but SheltOwn did exactly
+                                      what I needed.
+                                  </p>
+                              </div>
+                              <div class="media">
+                                  <div class="media-left d-flex mr-3">
+                                      <img src="images/customer7.jpg" alt="">
+                                  </div>
+                                  <div class="media-body">
+                                      <div class="overview">
+                                          <div class="name"><b>sravya</b></div>
+                                          <div class="details">Delhi</div>
+                                          <div class="star-rating">
+                                              <ul class="list-inline">
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-6">
+                              <div class="testimonial" style="margin-right: 0; margin-left: 0;">
+                                  <p>
+                                      The support I received from SheltOwn was thorough and timely and my issues were
+                                      addressed in a single interaction. Thank you for making the enquiry process so easy.
+                                      Thank you sheltown.com
+                                  </p>
+                              </div>
+                              <div class="media">
+                                  <div class="media-left d-flex mr-3">
+                                      <img src="images/customer12.jpg">
+                                  </div>
+                                  <div class="media-body">
+                                      <div class="overview">
+                                          <div class="name"><b>Shivam</b></div>
+                                          <div class="details">Delhi</div>
+                                          <div class="star-rating">
+                                              <ul class="list-inline">
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-6">
+                              <div class="testimonial" style="margin-right: 0; margin-left: 0;">
+                                  <p style="font-family: 'ITC Officina Sans Std', sans-serif; ">
+                                      Thanks to
+                                      SheltOwn for truly amazing stay. The hospitality they provide is quite
+                                      outstanding. Ambience of-course is as good as Home.
+                                  </p>
+                              </div>
+                              <div class="media">
+                                  <div class="media-left d-flex mr-3">
+                                      <img src=images/Sunil_Singh.jpg alt="">
+                                  </div>
+                                  <div class="media-body">
+                                      <div class="overview">
+                                          <div class="name"><b>Sunil Singh</b></div>
+                                          <div class="details">Delhi</div>
+                                          <div class="star-rating">
+                                              <!-- <ul class="starability-result mx-auto" data-rating="5">
+                                               5
+                                            </ul> -->
+                                              <ul class="list-inline">
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-6">
+                              <div class="testimonial" style="margin-right: 0; margin-left: 0;">
+                                  <p style="font-family: 'ITC Officina Sans Std', sans-serif; ">
+                                      As a single
+                                      working girl in a new city, Safety and Privacy was of much concern for
+                                      me and my family and I am glad that i chose SheltOwn. Its second to
+                                      none.
+                                  </p>
+                              </div>
+                              <div class="media">
+                                  <div class="media-left d-flex mr-3">
+                                      <img src=images/customer3.jpg alt="">
+                                  </div>
+                                  <div class="media-body">
+                                      <div class="overview">
+                                          <div class="name"><b>Kamakshi</b></div>
+                                          <div class="details">Delhi</div>
+                                          <div class="star-rating">
+                                              <!-- <ul class="starability-result mx-auto" data-rating="5">5</ul> -->
+                                              <ul class="list-inline">
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="item carousel-item">
+                      <div class="row">
+                          <div class="col-sm-6">
+                              <div class="testimonial" style="margin-right: 0; margin-left: 0;">
+                                  <p>
+                                      Absolutely the Best! I'm new to this city and was looking for personal services and
+                                      I had no clue where to find help, but then I found this amazing website SheltOwn
+                                      The site speaks for itself. Truly Amazing.
+                                  </p>
+                              </div>
+                              <div class="media">
+                                  <div class="media-left d-flex mr-3">
+                                      <img src="img/team/anwesha.jpeg" alt="">
+                                  </div>
+                                  <div class="media-body">
+                                      <div class="overview">
+                                          <div class="name"><b>Anwesha</b></div>
+                                          <div class="details">Delhi</div>
+                                          <div class="star-rating">
+                                              <ul class="list-inline">
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-6">
+                              <div class="testimonial" style="margin-right: 0; margin-left: 0;">
+                                  <p>
+                                      It gives me absolute pleasure to say that I am very happy with the kind of responses I am
+                                      getting through sheltown.com. Sheltown works in a very organised way, with transparency.
+                                      Keep up the spirits Sheltown!
+                                  </p>
+                              </div>
+                              <div class="media">
+                                  <div class="media-left d-flex mr-3">
+                                      <img src="img/team/shridhi.jpeg" alt="">
+                                  </div>
+                                  <div class="media-body">
+                                      <div class="overview">
+                                          <div class="name"><b>Shridhi</b></div>
+                                          <div class="details">Delhi</div>
+                                          <div class="star-rating">
+                                              <ul class="list-inline">
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-6">
+                              <div class="testimonial" style="margin-right: 0; margin-left: 0;">
+                                  <p>I have got a genuine and very quick response from the site. I am very happy with the services SheltOwn provides. I've used their services twice and I'm satisfied everytime.</p>
+                              </div>
+                              <div class="media">
+                                  <div class="media-left d-flex mr-3">
+                                      <img src="img/team/nikheel.jpeg" alt="">
+                                  </div>
+                                  <div class="media-body">
+                                      <div class="overview">
+                                          <div class="name"><b>Nikheel</b></div>
+                                          <div class="details">Mumbai</div>
+                                          <div class="star-rating">
+                                              <ul class="list-inline">
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                  <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!---Carousel controls -->
+              <span class="carousel-control-prev" href="#myCarousel" data-slide="prev"></span>
+              <span class="carousel-control-next" href="#myCarousel" data-slide="next"></span>
+          </div>
+      </div>
+      <!--optional-->
+  </div>
+
+
+
+
+    <!-------------------------footer start------------------------------------------------->
+    <div class="mt-5">
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small lighten-5" style="background-color: #323232;">
+
+        <!-- Footer Links -->
+        <div class="container-fluid mx-lg-0 pt-5 text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row mt-3 white-text">
+
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-6 col-xl-6 mb-4">
+
+                    <!-- Content -->
+                    <h6 class="text-uppercase font-weight-bold">Shelt + Own</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p style="font-size:16px" class="text-justify">
+                        We are a strong team focused on building a network where we could serve you
+                        regarding
+                        all your needs of having your own shelter.
+                        We are bound to provide you the best possible care and support which helps you meet your demands.
+                        Our core values- “Honesty, Authenticity, Concerns for Customer’s Privacy and Safety” are all closely
+                        interwoven into the fibre of our efforts.
+                        We help you to find your match, book rental homes of choice across Indian cities.
+                    </p>
+                    <p>Accept our warm SheltOwn hug.</p>
+
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="footer-links col-md-6 col-lg-2 col-xl-2 mb-4">
+
+                    <!-- Links -->
+                    <h6 class="white-text text-uppercase font-weight-bold">Useful Links</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="/AboutUs/">About Us</a>
+                    </p>
+                    <p>
+                        <a href="/Policy/">Our Policies</a>
+                    </p>
+                    <p>
+                        <a class="" href="/Joinus/">Work With Us</a>
+                    </p>
+                    <p>
+                        <a class="" href="/rental/">Find a Home Now</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="footer-links col-md-6 col-lg-2 col-xl-2 mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase white-text font-weight-bold">Company</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a class="" href="/BecomePartner/">List Your Property</a>
+                    </p>
+                    <p>
+                        <a class="" href="/Testimonial/">Testimonials</a>
+                    </p>
+                    <p>
+                        <a class="" href="/Blog/">Blogs</a>
+                    </p>
+                    <p>
+                        <a class="" href="https://www.xml-sitemaps.com/download/sheltown.in-8ee3322da/sitemap.xml?view=1">Sitemap</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-2 col-xl-2 mb-md-0 mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Love to hear</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fas fa-home mr-3" style="font-size:large;"></i> H-B2, 3rd Floor, Chattarpur Extension, New Delhi-110074
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope mr-3" style="font-size:large;"></i> info@sheltown.com
+                    </p>
+                    <p>
+                        <i class="fas fa-phone mr-3" style="font-size:large;"></i> +91-7428-770-297
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center white-text py-3" style="background: #444;">
+            Copyright © 2020 All Rights Reserved
+            <a class="white-text font-weight-bold" href="">SheltOwn.in</a>
+
+        </div>
+        <!-- Copyright -->
+
+        <div style="background-color:  #2ECAB6;">
+            <div class="container mx-0">
+
+                <!-- Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0 pl-5">Get connected with us on social networks!</h6>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic" href="https://www.facebook.com/sheltownIndia/" target="_blank">
+                            <i class="fab fa-facebook-f white-text mr-4" style="font-size:large;"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic" href="https://twitter.com/OwnShelt" target="_blank">
+                            <i class="fab fa-twitter white-text mr-4" style="font-size:large;"> </i>
+                        </a>
+                        <!-- Google +-->
+                        <!--Linkedin -->
+                        <a class="li-ic" href="https://www.linkedin.com/company/sheltown" target="_blank">
+                            <i class="fab fa-linkedin-in white-text mr-4" style="font-size:large;"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic" href="https://instagram.com/sheltown.india" target="_blank">
+                            <i class="fab fa-instagram white-text mr-4" style="font-size:large;"> </i>
+                        </a>
+                        <a href="#" class=" to-top"><i class="fas fa-chevron-up bg-danger d-flex align-items-center justify-content-center"></i></a>
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+
+            </div>
+        </div>
+
+    </footer>
+    <!-------------------------footer end------------------------------------------------->
+
+
+    <script>
+        setInterval(function () {
+            document.querySelector("#blink").style = "visibility:hidden";
+        }, 1000);
+        setInterval(function () {
+            document.querySelector("#blink").style = "visibility:visible";
+        }, 1100);
+        setInterval(function () {
+            document.querySelector("#blinks").style = "visibility:hidden";
+        }, 1000);
+        setInterval(function () {
+            document.querySelector("#blinks").style = "visibility:visible";
+        }, 1100);
+
+        const totop = document.querySelector(".to-top i");
+        window.addEventListener("scroll", () => {
+            if (window.pageYOffset > 100) {
+                totop.classList.add("active");
+            } else {
+                totop.classList.remove("active");
+            }
+        })
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+
+                loop: true,
+                margin: 20,
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    600: {
+                        items: 2,
+                        nav: false
+                    },
+                    1000: {
+                        items: 4,
+                        nav: true
+                    }
+                }
+            });
+            /*$('.more').each(function(){
+           var seeMore = $(".readmore").html();
+           var seeLess= seeMore.substr(0,100);
+           if (seeMore.length>100) {
+             $(".readmore").html(seeLess).append("<a href='' class='readmore'>See more</a>");
+           }else{
+             $("this").html(seeMore);
+           }
+           });*/
+
+        });
+
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://c
+    dnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
